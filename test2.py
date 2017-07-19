@@ -72,7 +72,7 @@ clf= tree.DecisionTreeRegressor()
 
 clf=clf.fit(Y,Z)
 print test_data
-print "The Predicted Value is--------->   "  clf.predict(test_data)
+print clf.predict(test_data)
 
 
 
